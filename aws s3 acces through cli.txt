@@ -12,3 +12,6 @@ download file from s3
  wget https://bharathchada.s3.amazonaws.com/awsbill.PNG
 
 Note: file should be have public access permission
+
+to sync entire buck data to local directory
+aws s3 sync s3://remote_S3_bucket local_directory
