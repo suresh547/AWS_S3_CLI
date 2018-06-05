@@ -1,0 +1,14 @@
+copying file from s3 to aws instance
+ aws s3 cp s3://bharathchada/awsbill.PNG suresh/awsbill3.PNG
+
+copying file from instance to s3 bucket
+
+ aws s3 cp su.txt s3://bharathchada/
+
+
+
+download file from s3
+
+ wget https://bharathchada.s3.amazonaws.com/awsbill.PNG
+
+Note: file should be have public access permission
